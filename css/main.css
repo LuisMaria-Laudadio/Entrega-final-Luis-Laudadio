@@ -40,8 +40,9 @@ main {
   main .h3-home {
     color: #ffff00; }
   main .home-h4 {
-    margin-bottom: 20px;
-    color: #ffff00; }
+    margin-bottom: 10px;
+    color: #ffff00;
+    margin-top: 5px; }
   main .div-home {
     text-align: center;
     width: 300px;
@@ -66,6 +67,9 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px; }
+  main a {
+    font-style: none;
+    color: #d4d44f; }
 
 /* estilos de formulario y contactos*/
 .form {
@@ -176,7 +180,9 @@ section img:hover {
   .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
     justify-content: center; }
   .navbar-nav {
-    align-items: center; } }
+    align-items: center; }
+  section {
+    display: none; } }
 
 @media screen and (min-width: 451px) and (max-width: 765px) {
   .form {
@@ -189,10 +195,14 @@ section img:hover {
   .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
     justify-content: center; }
   .navbar-nav {
-    align-items: center; } }
+    align-items: center; }
+  section {
+    display: none; } }
 
 @media screen and (min-width: 766px) {
   .form {
     width: 80%;
     min-width: 500px;
-    max-width: 800px; } }
+    max-width: 800px; }
+  .paracel {
+    display: none; } }

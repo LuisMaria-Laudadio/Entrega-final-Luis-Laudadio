@@ -16,6 +16,9 @@
     .navbar-nav{
       align-items: center;
     }
+    section{
+      display: none;
+    }
 }
 
 @media screen and (min-width: 451px) and (max-width: 765px) {
@@ -35,11 +38,17 @@
     .navbar-nav{
       align-items: center;
     }
+    section{
+      display: none;
+    }
 }
 @media screen and (min-width: 766px ){
     .form {
         width: 80%;
         min-width: 500px;
         max-width: 800px;
+    }
+    .paracel{
+      display: none;
     }
 }
