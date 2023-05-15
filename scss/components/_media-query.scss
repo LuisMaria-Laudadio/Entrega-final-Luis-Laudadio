@@ -1,0 +1,45 @@
+/*----------------Media Query------------*/
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .form {
+        width: 60%;
+        min-width: 295px;
+
+    }
+  .sobnos {
+    display: none;
+  }
+  .drops-sb {
+    display: none;
+  }
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    justify-content: center;}
+    .navbar-nav{
+      align-items: center;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 765px) {
+    .form {
+        width: 60%;
+        min-width: 400px;
+    }
+
+  .sobnos {
+    display: none;
+  }
+  .drops-sb {
+    display: none;
+  }
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    justify-content: center;}
+    .navbar-nav{
+      align-items: center;
+    }
+}
+@media screen and (min-width: 766px ){
+    .form {
+        width: 80%;
+        min-width: 500px;
+        max-width: 800px;
+    }
+}
