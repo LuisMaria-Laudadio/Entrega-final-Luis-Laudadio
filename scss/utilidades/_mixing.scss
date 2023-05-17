@@ -1,0 +1,8 @@
+
+//Mixing con parametros
+
+@mixin imagenes($width, $height){
+    width:$width ;
+    height: $height ;
+}
+
